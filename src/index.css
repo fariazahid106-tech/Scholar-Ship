@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --pk: 11 93 59; --acc: 11 93 59; --ink: 15 31 23; --mist: 244 247 245; --surface: 255 255 255; --gold: 233 178 60; color-scheme: light; }
+.dark { --pk: 14 107 68; --acc: 110 209 160; --ink: 228 240 233; --mist: 12 23 18; --surface: 22 37 29; --gold: 233 178 60; color-scheme: dark; }
+
+body { background: rgb(var(--mist)); color: rgb(var(--ink)); font-family: 'Source Sans 3', system-ui, sans-serif; }
+h1, h2, h3 { font-family: 'Bricolage Grotesque', system-ui, sans-serif; }
+.dark .bg-red-50 { background: rgb(127 29 29 / 0.35); }
+.dark .text-red-700 { color: #fca5a5; }
