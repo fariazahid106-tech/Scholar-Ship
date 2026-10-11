@@ -1,6 +1,6 @@
 // Google AI Studio (Gemini) client
 const BASE = "https://generativelanguage.googleapis.com/v1beta/models";
-const MODELS = ["gemini-3.6-flash"]; // primary, fallback
+const MODELS = ["gemini-3.8-flash"]; // primary, fallback
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function parseJSON(text) {
